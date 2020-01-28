@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country list</title>
+</head>
+<body>
+
+<h1>My Favourite Country list</h1>
+
+{% for s in allStudents %}
+
+{{s.name}}  <br>
+{{s.country_ID}}  <br>
+{{s.area}}  <br>
+{{s.GDP}}  <br>
+{{s.urban}}  <br>
+
+
+<br>
+{% endfor %}
+
+
+</body>
+</html>
